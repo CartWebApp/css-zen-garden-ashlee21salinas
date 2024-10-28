@@ -1,1 +1,16 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+body {
+    
+}
+
+h1 {
+    background-color: #7A5ABF;
+    padding: 5%;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    background-color: #9F8FBF;
+    padding: 3%;
+}
