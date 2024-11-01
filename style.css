@@ -19,6 +19,8 @@ header {
     padding: 0 13px;
 }
 
+
+
 h1 {
     background-color: var(--dark-purple);
     width: 195vh;
@@ -28,7 +30,7 @@ h1 {
     align-content: center;
 }
 
-h2, .summary {
+h2 {
     background-color: #9F8FBF;
     width: 50vh;
     height: 20vh;
@@ -36,13 +38,31 @@ h2, .summary {
     text-align: center;
 }
 
-.preamble {
-    background-color: #B4A3D9;
-    width: 50vh;
-    height: 50vh;
+
+
+.summary {
+    background-color: #9F8FBF;
+    width: 70vh;
+    height: 20vh;
     align-content: center;
     text-align: center;
-    align-self: flex-end;
+    height: 90vh;
+}
+
+
+.intro {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.preamble {
+    background-color: #B4A3D9;
+    width: 100vh;
+    height: 100vh;
+    align-content: center;
+    text-align: center;
+    font-size: 3vh;
 }
 
 .explanation {
@@ -79,10 +99,10 @@ h2, .summary {
 
 .wrapper {
     background-color: #E2CCFF;
-   display: flex;
-   flex-direction: row;
    justify-content: space-evenly;
 }
+
+
 
 ul {
     list-style: none;
