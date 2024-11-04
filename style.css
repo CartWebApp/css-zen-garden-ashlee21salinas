@@ -15,15 +15,14 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url(gray-back.avif);
-    padding: 0 13px;
+ 
 }
 
 
 
 h1 {
     background-color: var(--dark-purple);
-    width: 195vh;
+    width: 100%;
     height:  20vh;
     color: whitesmoke;
     text-align: center;
@@ -32,7 +31,7 @@ h1 {
 
 h2 {
     background-color: #9F8FBF;
-    width: 50vh;
+    width: 100%;
     height: 20vh;
     align-content: center;
     text-align: center;
@@ -42,11 +41,12 @@ h2 {
 
 .summary {
     background-color: #9F8FBF;
-    width: 70vh;
-    height: 20vh;
+    width: 40%;
+    height: 40vh;
     align-content: center;
     text-align: center;
-    height: 90vh;
+    height: 100vh;
+    font-size: 3vh;
 }
 
 
@@ -58,54 +58,78 @@ h2 {
 
 .preamble {
     background-color: #B4A3D9;
-    width: 100vh;
+    width: 60%;
     height: 100vh;
     align-content: center;
     text-align: center;
     font-size: 3vh;
 }
 
+#zen-supporting {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .explanation {
     background-color: #E2CCFF;
-    width: 50vh;
-    height: 50vh;
+    width: 60%;
+    height: 90vh;
     align-content: center;
     text-align: center;
+    font-size: 3vh;
+
 }
 
 .participation {
     background-color: #9F8FBF;
-    width: 50vh;
-    height: 50vh;
+    width: 40%;
+    height: 90vh;
     text-align: center;
     align-content: center;
+    font-size: 3vh;
 }
 
 .benefits {
     background-color: #7A5ABF;
-    width: 50vh;
-    height: 50vh;
     align-content: center;
     text-align: center;
+    width: 40%;
+    height: 90vh;
+    font-size: 3vh;
 }
 
 .requirements {
-    background-color: #9F8FBF;
-    width: 50vh;
-    height: 55vh;
+    background-color: #B4A3D9;
+    width: 60%;
+    height: 90vh;
     align-content: center;
     text-align: center;
+    font-size: 3vh;
+    
 }
 
+footer {
+    background-color: #E2CCFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 .wrapper {
     background-color: #E2CCFF;
    justify-content: space-evenly;
+   display: flex;
+   flex-direction: row;
 }
 
 
 
 ul {
     list-style: none;
+}
+
+.sidebar {
+    width: 100%;
+    
 }
 
 
